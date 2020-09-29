@@ -1,0 +1,132 @@
+/* Like per usual top to bottom */
+
+h1 {
+    font-size: 28px;
+    display: inline-block;
+    color: rgb(167, 164, 164);
+    margin-bottom: 0.125rem;
+}
+
+.h1 {
+    font-size: 28px; /* seems redundant but fixed sizing */
+    color: gray;
+    font-weight: 900;
+    margin-bottom: 0.125rem;
+
+    
+}
+
+.li {
+    height: 80px;
+    line-height: 4.5rem;
+    background: white;
+    width: auto;
+    padding: 10px;
+
+}
+
+.a {
+    color: rgb(114, 113, 113);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    height: 80px;
+}
+
+a:hover {
+    color: rgb(114, 113, 113);
+    text-decoration: none;
+}
+
+li:hover {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(204,204,204,0.6783088235294117) 100%);
+    border-left: gray;
+    border-right: gray;
+
+}
+
+ul {
+
+}
+
+button {
+    color: rgb(114, 113, 113);
+    background: white;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: .75rem !important;  
+    
+}
+
+.background {
+    height: 400px;
+    width: auto;
+    background: rgb(111,177,218);
+    background: radial-gradient(circle, rgba(111,177,218,1) 0%, rgba(8,111,176,1) 100%);
+}
+
+.top-left {
+    top: 50px;
+    left: 50px;
+}
+
+.bigp {
+    font-size: 26px;
+    color: white;
+}
+
+.p {
+    color: white;
+}
+h2 {
+    color: white;
+}
+
+.a2 {
+    color: rgb(167, 164, 164);
+    border-right:rgb(167, 164, 164);
+
+}
+
+.li2 {
+    padding-right: 15px;
+    color: rgb(167, 164, 164);
+    border-right:rgb(167, 164, 164) solid 1.5px;
+}
+
+.navbackground2 {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(233,232,232,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.li2 a:hover {
+    background: white;
+}
+
+.info {
+    background: rgb(255,255,255);
+    background: linear-gradient(130deg, rgba(255,255,255,1) 0%, rgba(233,232,232,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.button {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(233,232,232,1) 50%, rgba(255,255,255,1) 100%);
+    border-radius: 25px;
+    border: lightgray solid 1px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-left: 150px;
+    padding-right: 150px;
+    color: rgb(92, 92, 92);
+}
+
+h5 {
+    padding-top: 10px;
+}
